@@ -231,7 +231,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #hero {
-    bbackground: rgb(79, 7, 25);
+    background: rgb(79, 7, 25);
     background: linear-gradient(18deg, rgba(79, 7, 25, 1) 11%, rgba(219, 14, 70, 1) 100%);
     background-size: cover;
     position: relative;
@@ -845,8 +845,8 @@ h6 {
 
 #footer .footer-top {
     padding: 60px 0 30px 0;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 0%, rgba(237, 122, 87, 1) 74%);
+    background: rgb(79, 7, 25);
+    background: linear-gradient(18deg, rgba(79, 7, 25, 1) 11%, rgba(219, 14, 70, 1) 100%);
 }
 
 #footer .footer-top .footer-info {
@@ -876,8 +876,8 @@ h6 {
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 0%, rgba(237, 122, 87, 1) 74%);
+    background: rgb(79, 7, 25);
+    background: linear-gradient(18deg, rgba(79, 7, 25, 1) 11%, rgba(219, 14, 70, 1) 100%);
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -949,8 +949,8 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 0%, rgba(237, 122, 87, 1) 74%);
+    background: rgb(79, 7, 25);
+    background: linear-gradient(18deg, rgba(79, 7, 25, 1) 11%, rgba(219, 14, 70, 1) 100%);
     border: 1px solid #1bb1dc;
     width: 35%;
     padding: 6px 0;
@@ -1036,8 +1036,8 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"] {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(18deg, rgba(0, 0, 0, 1) 0%, rgba(237, 122, 87, 1) 74%);
+    background: rgb(79, 7, 25);
+    background: linear-gradient(18deg, rgba(79, 7, 25, 1) 11%, rgba(219, 14, 70, 1) 100%);
     border: 0;
     border-radius: 3px;
     padding: 8px 30px;
@@ -1188,4 +1188,48 @@ h6 {
     #footer .footer-top .social-links a {
         margin-bottom: 25px;
     }
+}
+
+.next-project {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    box-shadow: 14px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.next-project img {
+    opacity: 0.1;
+    width: 30%;
+    height: 10%;
+    filter: blur(4px);
+}
+
+.next-project .description {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    align-items: center;
+    display: flex;
+}
+
+.next-project .description-next {
+    width: 100%;
+}
+
+.next-project .description-next {
+    width: 100%;
+}
+
+.next-project h2 {
+    color: #5e0404;
+    text-decoration: underline;
+    padding: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.next-project h3,
+.next-project p {
+    color: #5e0404;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
